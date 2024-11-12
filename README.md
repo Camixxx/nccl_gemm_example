@@ -6,7 +6,7 @@ $C = AB + C$,
 
 # How to build and test
 
-`bash
+```bash
 # build
 make
 
@@ -16,10 +16,10 @@ make
 # clean
 make clean
 
-`
+```
 
 # Environment
 
-python3: build nccl
-nccl: install the nccl to cuda path
-cuda-tool-kit: need cublas to verify results 
+- python3: build nccl
+- nccl: install the nccl to cuda path
+- cuda-tool-kit: need cublas to verify results 
